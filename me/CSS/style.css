@@ -1,0 +1,363 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	scroll-behavior: smooth;
+}
+.navbar-brand {
+	font-size: 30px;
+	height: 50px;
+	align-items: center;
+	padding-top: 0px;
+	justify-content: center;
+}
+.navbar-nav {
+	font-size: 10px;
+	font-weight: 900;
+	align-items: center;
+	justify-content: center;
+}
+.nav-button {
+	width: 20px;
+	height: 2px;
+	background-color: black;
+	margin: 5px 0;
+}
+.name {
+	max-width: 100%;
+	overflow: hidden;
+}
+.row {
+	height: 800px;
+}
+
+.left-div {
+	/* background-color: #93d7c2; */
+	background-color: #72ddf7;
+	color: white;
+}
+.right-div {
+	color: #ffffff;
+	background-color: #000000;
+}
+.first-name {
+	position: relative;
+	left: 500px;
+	z-index: 10;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 288px;
+}
+
+.last-name {
+	/* position: relative; */
+	position: absolute;
+	top: 250px;
+	left: 830px;
+
+	display: inline;
+	/* max-width: auto; */
+	overflow: hidden;
+	z-index: 10;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 288px;
+}
+
+/* second page */
+
+.describe {
+	font-family: "Aguafina Script", cursive;
+	font-size: 50px;
+	padding: 25px;
+
+	padding-top: 50px;
+}
+
+.skill {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+h4 {
+	font-size: 140px;
+	padding: 50px 50px;
+	z-index: 20px;
+	letter-spacing: 1px;
+	font-family: "Aguafina Script", cursive;
+}
+img {
+	width: fit-content;
+}
+
+.designer-para {
+	font-family: "Aguafina Script", cursive;
+	font-size: 25px;
+
+	position: absolute;
+	left: 220px;
+	margin-top: 320px;
+	align-items: center;
+	width: 300px;
+	display: none;
+}
+.developer-para {
+	font-family: "Aguafina Script", cursive;
+	font-size: 25px;
+	padding-top: 50px;
+	position: absolute;
+	left: 970px;
+	margin-top: 320px;
+	align-items: center;
+	width: 300px;
+	display: none;
+}
+#designer {
+	color: #ff006e;
+}
+#developer {
+	color: #ff006e;
+}
+#designer:hover {
+	color: #8900f2;
+	text-decoration-style: none;
+}
+
+#developer:hover {
+	color: #8900f2;
+	text-decoration-style: none;
+}
+.about {
+	position: absolute;
+
+	justify-content: center;
+	overflow: hidden;
+	font-size: 26px;
+	padding: 20px;
+	letter-spacing: 1px;
+	font-family: "Aguafina Script", cursive;
+}
+/* last sect
+ion  */
+
+.jumbotron {
+	background: rgb(0, 0, 0);
+
+	height: 70vh;
+	width: 100%;
+}
+
+.form-heading {
+	color: white;
+	font-family: "Aguafina Script", cursive;
+	position: absolute;
+	left: 480px;
+	font-size: 80px;
+	letter-spacing: 1px;
+}
+
+.social {
+	display: flex;
+	width: 100%;
+
+	padding-top: 50px;
+	padding-left: 20px;
+}
+#ig {
+	width: 150px;
+	height: 150px;
+	padding: 20px 20px;
+	position: relative;
+	left: 150px;
+	top: 60px;
+}
+/* ig hover effect */
+#ig:hover {
+	animation: ig-effects 2s infinite;
+	animation-delay: 200ms;
+}
+@keyframes ig-effects {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.7);
+		opacity: 0.7;
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+#twitter {
+	position: relative;
+	left: 200px;
+	width: 150px;
+	padding: 20px 20px;
+	top: 60px;
+}
+
+#twitter:hover {
+	animation: twitter-effects 2s infinite;
+	animation-delay: 200ms;
+}
+@keyframes twitter-effects {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.7);
+		opacity: 0.7;
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+#dribble {
+	position: relative;
+	left: 250px;
+	width: 150px;
+	padding: 20px 20px;
+	top: 60px;
+}
+#dribble:hover {
+	animation: dribble-effects 2s infinite;
+	animation-delay: 200ms;
+}
+@keyframes dribble-effects {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	50% {
+		transform: scale(0.7);
+		opacity: 0.7;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+#linkedin {
+	overflow: hidden;
+	position: relative;
+	left: 300px;
+	width: 150px;
+	padding: 20px 20px;
+	top: 60px;
+}
+#linkedin:hover {
+	animation: linkedin-effects 2s infinite;
+	animation-delay: 200ms;
+}
+@keyframes linkedin-effects {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.7);
+		opacity: 0.7;
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+#footer-head {
+	overflow: hidden;
+	font-family: "Aguafina Script", cursive;
+	font-size: 65px;
+	position: relative;
+	left: 600px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#copyright {
+	overflow: hidden;
+	font-size: 15px;
+	position: relative;
+	left: 650px;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+.footer-links {
+	list-style: none;
+	font-size: 30px;
+	text-decoration: none;
+	overflow: hidden;
+	display: flex;
+	padding: 40px 40px;
+	justify-content: space-evenly;
+	color: #8900f2;
+}
+
+footer {
+	overflow: hidden;
+}
+
+/* Animations  */
+
+/* Jquery animation classes */
+
+.designer-clicked {
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.designer-para-clicked {
+	font-family: "Aguafina Script", cursive;
+	font-size: 25px;
+	letter-spacing: 1px;
+
+	position: absolute;
+	left: 220px;
+	/* margin-top: 320px; */
+	padding-top: 55px;
+	align-items: center;
+	width: 300px;
+	display: block;
+
+	/* color: #4ecdc4; */
+	color: #0077b6;
+	/* color: #011627; */
+}
+
+.developer-para-clicked {
+	font-family: "Aguafina Script", cursive;
+	font-size: 25px;
+	letter-spacing: 1px;
+	padding-top: 55px;
+	position: absolute;
+	left: 970px;
+	margin-top: 320px;
+	align-items: center;
+	width: 300px;
+
+	color: #0077b6;
+	display: block;
+}
+
+.bird-animation {
+	animation: bird-animation 5s infinite;
+}
+@keyframes bird-animation {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(0.7);
+		opacity: 0.7;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
